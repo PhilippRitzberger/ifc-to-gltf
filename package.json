@@ -1,12 +1,12 @@
 {
-  "name": "ifc-to-gltf",
-  "version": "1.0.0",
+  "name": "ifc-2-gltf",
+  "version": "0.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["ifc-to-gltf"],
+  "keywords": ["ifc-to-gltf", "ifc-2-gltf"],
   "author": "Philipp Ritzberger",
   "license": "ISC",
   "dependencies": {
@@ -17,5 +17,8 @@
     "figlet": "^1.2.4",
     "ifc-convert": "^1.2.0",
     "obj2gltf": "^3.0.4"
+  },
+  "bin": {
+    "ifc-2-gltf": "./index.js"
   }
 }
