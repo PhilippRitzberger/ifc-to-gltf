@@ -1,0 +1,21 @@
+{
+  "name": "ifc-to-gltf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["ifc-to-gltf"],
+  "author": "Philipp Ritzberger",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "clear": "^0.1.0",
+    "cli-progress": "^3.3.1",
+    "configstore": "^5.0.0",
+    "figlet": "^1.2.4",
+    "ifc-convert": "^1.2.0",
+    "obj2gltf": "^3.0.4"
+  }
+}
